@@ -1,4 +1,5 @@
 from django import forms
+from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
@@ -37,4 +38,4 @@ class UserRegistrationForm(UserCreationForm):
         if password1 != password2:
             raise ValidationError("Passwords do not match")
 
-        return password2
+        return password2 

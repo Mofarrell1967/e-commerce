@@ -1,6 +1,4 @@
 from django.contrib.auth.models import User
-
-
 class EmailAuth:
     """Authenticate a user by an exact match on the email and password"""
 
