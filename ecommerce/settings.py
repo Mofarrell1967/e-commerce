@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
-                ('localhost')]
+                ('localhost'), 'mo-ecommerce-app.herokuapp.com']
 
 
 # Application definition
